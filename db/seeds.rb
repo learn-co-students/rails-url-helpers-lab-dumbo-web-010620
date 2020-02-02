@@ -2,6 +2,7 @@
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 #
 # Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+##   Mayor.create(name: 'Emanuel', city: cities.first)
+  
+students = Student.create([{ first_name: 'Chicago', last_name: 'Copenhagen' }, { first_name: 'Tim Othy', last_name: 'Preezent' }])
+
